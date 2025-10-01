@@ -7,14 +7,14 @@ export default function Projects() {
       title: "Leadership Training for Aggreko Workers",
       description:
         "Facilitated HR and Leadership sessions to empower staff for effective workplace performance.",
-      image: "/IMG-20250928-WA0016~3.jpg",
+      image: "/IMG-20251001-WA0044~2.jpg",
       link: "#",
     },
     {
       title: "Talent Management & Succession Planning Masterclass",
       description:
         "Designed and delivered impactful training for HR professionals, equipping them with modern tools.",
-      image: "/1759313650295.jpg",
+      image: "/1717489701085~4.jpg",
       link: "#",
     },
     {
@@ -49,14 +49,15 @@ export default function Projects() {
               className="bg-blue-50 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition"
             >
               {/* Project Image */}
-              <div className="relative w-full h-85
-       ">
+              <div className="relative w-full aspect-[4/3] bg-gray-200">
                 <Image
                   src={project.image}
                   alt={project.title}
-                  layout="fill"
-                  objectFit="cover"
-                
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 768px) 100vw,
+                         (max-width: 1200px) 50vw,
+                         33vw"
                 />
               </div>
 
@@ -65,14 +66,13 @@ export default function Projects() {
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
 
-               { /*    <a
+                {/* Optional link */}
+                {/* <a
                   href={project.link}
                   className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium"
-                >  
+                >
                   Learn More <FaExternalLinkAlt size={14} />
-                </a>
-                 */}
-                 
+                </a> */}
               </div>
             </div>
           ))}
