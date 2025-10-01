@@ -6,7 +6,7 @@ export default function Projects() {
     {
       title: "Leadership Training for Aggreko Workers",
       description:
-        "Facilitated HR and Leadership sessions to empower staff for effective workplace performance.",
+        "Co-Facilitated HR and Leadership sessions to empower staff for effective workplace performance.",
       image: "/IMG-20251001-WA0044~2.jpg",
       link: "#",
     },

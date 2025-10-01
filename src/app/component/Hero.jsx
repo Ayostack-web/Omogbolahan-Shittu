@@ -15,7 +15,7 @@ export default function Hero() {
         {/* Left: Text */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-            Hi, I’m{" "}
+            {" "}
             <span className="bg-gradient-to-r from-blue-400 to-teal-100 bg-clip-text text-transparent">
               Shittu Omogbolahan Gabriel
             </span>{" "}
