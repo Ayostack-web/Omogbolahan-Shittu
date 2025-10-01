@@ -7,7 +7,7 @@ export default function Projects() {
       title: "Leadership Training for Aggreko Workers",
       description:
         "Facilitated HR and Leadership sessions to empower staff for effective workplace performance.",
-      image: "/IMG-20250928-WA0016~2.jpg",
+      image: "/IMG-20250928-WA0016~3.jpg",
       link: "#",
     },
     {
@@ -49,7 +49,7 @@ export default function Projects() {
               className="bg-blue-50 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition"
             >
               {/* Project Image */}
-              <div className="relative w-full h-87
+              <div className="relative w-full h-85
        ">
                 <Image
                   src={project.image}
