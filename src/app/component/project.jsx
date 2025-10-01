@@ -7,14 +7,14 @@ export default function Projects() {
       title: "Leadership Training for Aggreko Workers",
       description:
         "Facilitated HR and Leadership sessions to empower staff for effective workplace performance.",
-      image: "/1759185307781.jpg",
+      image: "/WhatsApp Image 2025-09-28 at 8.58.41 AM.jpeg",
       link: "#",
     },
     {
       title: "Talent Management & Succession Planning Masterclass",
       description:
         "Designed and delivered impactful training for HR professionals, equipping them with modern tools.",
-      image: "/1759185361165.jpg",
+      image: "/1759313650295.jpg",
       link: "#",
     },
     {
@@ -27,7 +27,7 @@ export default function Projects() {
     {
       title: "Covenant Surveillance Mentorship Group",
       description:
-        "Spiritual mentorship for C&S youths, nurturing discipline, intercession, and leadership.",
+        "Spiritual mentorship for youths and Teenagers, nurturing discipline, intercession, and leadership.",
       image: "/1759185129657.jpg",
       link: "#",
     },
@@ -49,12 +49,13 @@ export default function Projects() {
               className="bg-blue-50 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition"
             >
               {/* Project Image */}
-              <div className="relative w-full h-48">
+              <div className="relative w-full h-100 ">
                 <Image
                   src={project.image}
                   alt={project.title}
                   layout="fill"
                   objectFit="cover"
+                
                 />
               </div>
 
@@ -62,12 +63,15 @@ export default function Projects() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                <a
+
+               { /*    <a
                   href={project.link}
                   className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium"
-                >
+                >  
                   Learn More <FaExternalLinkAlt size={14} />
                 </a>
+                 */}
+                 
               </div>
             </div>
           ))}

@@ -10,7 +10,7 @@ export default function About() {
         <div className="flex-1 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-500">
             <Image
-              src="/1717489701085~4.jpg"
+              src="/1759313777278.jpg"
               alt="About Me"
               layout="fill"
               objectFit="cover"

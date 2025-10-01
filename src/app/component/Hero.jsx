@@ -59,7 +59,7 @@ export default function Hero() {
               View My Work <FaArrowRight />
             </a>
             <a
-              href="#contact"
+              href="mailto:shittuomogbolahangabriel@gmail.com"
               className="px-6 py-3 border border-gray-500 hover:border-blue-400 hover:text-blue-400 rounded-xl transition"
             >
               Contact Me
@@ -71,10 +71,11 @@ export default function Hero() {
         <div className="flex-1 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-2xl">
             <Image
-              src="/WhatsApp Image 2025-09-28 at 8.58.41 AM.jpeg"
+              src="/1717489701085~4.jpg"
               alt="Profile"
               layout="fill"
-              objectFit="cover"
+             // objectFit="cover"
+              objectPosition="top"
               className="hover:scale-105 transition-transform duration-500"
               
             />
