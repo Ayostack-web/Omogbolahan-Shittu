@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="w-full min-h-[85vh] mt-20 my-15 mb-auto flex items-center justify-center bg-gradient-to-br from-gray-200 via-gray-600 to-black text-white relative"
+      className="w-full min-h-[85vh] mt-20 my-15 mb-auto flex items-center justify-center bg-gradient-to-br from-gray-200 via-gray-500 to-black text-white relative"
     >
       <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center gap-10 relative z-10">
         
@@ -19,7 +19,7 @@ export default function Hero() {
             <span className="bg-gradient-to-r from-blue-400 to-teal-100 bg-clip-text text-transparent">
               Shittu Omogbolahan Gabriel
             </span>{" "}
-            👋
+          
           </h1>
 
           {/* Roles with Icons */}
