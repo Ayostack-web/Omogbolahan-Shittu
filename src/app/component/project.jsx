@@ -46,7 +46,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-blue-50 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition"
+              className="bg-blue-50 shadow-blue-950 shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition"
             >
               {/* Project Image */}
               <div className="relative w-full aspect-[4/3] bg-gray-200">

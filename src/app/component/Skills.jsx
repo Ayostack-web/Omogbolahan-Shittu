@@ -16,7 +16,7 @@ export default function Skills() {
         <div className="grid md:grid-cols-3 gap-8">
           
           {/* Technical Skills */}
-          <div className="bg-blue-50 shadow-lg rounded-xl p-6 hover:shadow-xl transition">
+          <div className="bg-blue-50 shadow-blue-900 shadow-lg rounded-xl p-6 hover:shadow-xl transition">
             <h3 className="flex items-center gap-2 text-xl font-semibold mb-4">
               <FaDatabase className="text-blue-500" /> Technical Skills
             </h3>
@@ -30,7 +30,7 @@ export default function Skills() {
           </div>
 
           {/* Soft Skills */}
-          <div className="bg-blue-50 shadow-lg rounded-xl p-6 hover:shadow-xl transition">
+          <div className="bg-blue-50 shadow-blue-900 shadow-lg rounded-xl p-6 hover:shadow-xl transition">
             <h3 className="flex items-center gap-2 text-xl font-semibold mb-4">
               <FaUsers className="text-green-500" /> Soft Skills
             </h3>
@@ -45,7 +45,7 @@ export default function Skills() {
           </div>
 
           {/* Tools */}
-          <div className="bg-blue-50 shadow-lg rounded-xl p-6 hover:shadow-xl transition">
+          <div className="bg-blue-50 shadow-blue-900 shadow-lg rounded-xl p-6 hover:shadow-xl transition">
             <h3 className="flex items-center gap-2 text-xl font-semibold mb-4">
               <FaToolbox className="text-purple-500" /> Tools & Platforms
             </h3>
