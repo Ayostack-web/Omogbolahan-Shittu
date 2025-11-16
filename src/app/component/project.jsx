@@ -67,12 +67,12 @@ export default function Projects() {
                 <p className="text-gray-600 mb-4">{project.description}</p>
 
                 {/* Optional link */}
-                {/* <a
+                { <a
                   href={project.link}
                   className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium"
                 >
                   Learn More <FaExternalLinkAlt size={14} />
-                </a> */}
+                </a> }
               </div>
             </div>
           ))}
