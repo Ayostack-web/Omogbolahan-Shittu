@@ -1,3 +1,4 @@
+
 "use client"
 import { useState } from 'react'
 import Header from './component/Header'
@@ -25,3 +26,5 @@ export default function Home() {
   </div>
       );
 }
+
+
